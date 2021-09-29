@@ -6,6 +6,7 @@
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
     "axios": "^0.18.0",
+    "gh-pages": "^3.2.3",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.3"
@@ -14,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,5 +28,6 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "proxy": "https://customer-manage.herokuapp.com/"
+  "proxy": "https://customer-manage.herokuapp.com/",
+  "homepage": "https://dev-lee-js.github.io/customer-ms/"
 }

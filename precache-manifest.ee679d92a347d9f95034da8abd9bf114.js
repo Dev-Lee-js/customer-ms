@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/customer-ms/static/js/runtime~main.e05d0fdb.js"
   },
   {
-    "revision": "3cb1f6651ecb8e91cc95cedf497812d8",
+    "revision": "d39c35bcb4229ffe6aa4e4c8d8e8a66b",
     "url": "/customer-ms/index.html"
   }
 ];
